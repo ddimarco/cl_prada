@@ -1,0 +1,5 @@
+# t=0; table=61, ball1=70
+clear(61) on(70, 61) on(70, 61) ball(70)
+grab(70)
+# t=1
+inhand(70) on(70, 61) ball(70)

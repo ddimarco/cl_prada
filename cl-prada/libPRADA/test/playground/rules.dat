@@ -1,0 +1,30 @@
+# Rule #0  (1 out of 4)
+ACTION:
+  default()
+CONTEXT:
+  --
+OUTCOMES:
+  0.5 <no-change>
+  0.5 <noise>
+
+
+# Rule #2  (3 out of 4)
+#ACTION:
+#  grab(X)
+#CONTEXT:
+#  inhand(Y) 
+#OUTCOMES:
+#  0.666 inhand(X) -on(X Y) -upright(X) 
+#  0.334 <noise>
+
+
+# Rule #3  (4 out of 4)
+ACTION:
+  grab(X)
+CONTEXT:
+  ball(X) on(X, Y)
+OUTCOMES:
+  0.649315 inhand(X) -on(X Y)
+  0 <noise>
+
+

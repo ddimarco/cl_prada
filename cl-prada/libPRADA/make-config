@@ -1,0 +1,6 @@
+# Control compiler options
+# Compile with debug information
+#OPTIM = debug
+# Compile with optimization
+OPTIM = fast
+

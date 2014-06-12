@@ -1,0 +1,46 @@
+
+*** When using this library...
+
+please cite the paper:
+
+   Tobias Lang and Marc Toussaint
+   Planning with Noisy Probabilistic Relational Rules
+   Journal of Artificial Intelligence Research
+   2010, Volume 39, pages 1-49  
+
+please read the guide:
+
+   doc/guide.pdf
+
+
+
+*** Installation
+
+Please type "make" in the root directory libPRADA/.
+
+Then, try out the three demos in libPRADA/test/.
+
+In case of problems, please contact me.
+
+
+
+*** GPL licence statement:
+
+    Copyright 2008-2012 Tobias Lang
+    email: tobias.lang@fu-berlin.de
+
+    This file is part of libPRADA.
+
+    libPRADA is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    libPRADA is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with libPRADA.  If not, see <http://www.gnu.org/licenses/>
+

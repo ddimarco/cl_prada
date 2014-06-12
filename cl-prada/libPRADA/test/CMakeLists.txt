@@ -1,0 +1,5 @@
+add_subdirectory(relational_basic)
+add_subdirectory(relational_learn)
+add_subdirectory(relational_plan)
+add_subdirectory(planner)
+#add_subdirectory(relational_learn_lispy)
