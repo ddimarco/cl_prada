@@ -27,7 +27,7 @@
     (format t "ACTION:~%  ~a~%CONTEXT:~%  ~{~a~^ ~}~%OUTCOMES:~%"
             (delispify-expr action)
             (ensure-list
-             (if context-expr
+             (if context
                  (delispify-expr context)
                  "--")))
     ;; check that probabilities sum to 1
