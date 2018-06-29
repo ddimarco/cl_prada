@@ -54,4 +54,4 @@ SST_branch 3
     (let ((domain (get-domain domain-name)))
       (write-prada-files domain reward-list)
       (with-output-to-string (asdf::*verbose-out*)
-        (asdf:run-shell-command "cd /tmp; ~a" (planner-path))))))
+        (uiop:run-program (format nil "cd /tmp; ~a" (planner-path)))))))
